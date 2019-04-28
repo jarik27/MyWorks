@@ -16,7 +16,7 @@ public class BiggerNumberFinder {
         }else if (number1 < number2){
             System.out.println("2 number: " + number2 +" is bigger than 1 number: " + number1);
         }else {
-            System.out.println("Numbers are the same");
+            System.out.println("You entered 2 numbers: " + number1 + " and " + number2 + "." +" Numbers are the same.");
         }
     }
 }
