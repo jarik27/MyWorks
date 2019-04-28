@@ -1,4 +1,4 @@
-package recap;
+package recap.task1;
 
 import java.util.Scanner;
 
