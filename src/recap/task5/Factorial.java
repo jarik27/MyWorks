@@ -18,10 +18,10 @@ public class Factorial {
                 System.out.println("This is negative number");
             } else if (number == 0) {
                 System.out.println("Result: 1");
-            }else {
+            } else {
                 int result = 1;
-                for (int counter = number; counter>1;counter--){
-                    result = result*counter;
+                for (int counter = number; counter > 1; counter--) {
+                    result = result * counter;
                 }
                 System.out.println("Result: " + result);
             }
