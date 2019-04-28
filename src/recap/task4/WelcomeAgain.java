@@ -10,10 +10,9 @@ public class WelcomeAgain {
 
         if (password.equals("password")){
             System.out.println("Please enter the second password");
-            Scanner scanner1 = new Scanner(System.in);
-            String password2 = scanner1.nextLine();
+            password = scanner.nextLine();
 
-            if (password2.equals("password2")){
+            if (password.equals("password2")){
                 System.out.println("Welcome to the Club");
             }else {
                 System.out.println("Second password is wrong");
