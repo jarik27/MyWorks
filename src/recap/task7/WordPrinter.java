@@ -1,4 +1,4 @@
-package task7;
+package recap.task7;
 
 import java.util.Scanner;
 
